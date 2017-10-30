@@ -1,0 +1,182 @@
+*{
+box-sizing: border-box;	
+}
+body{
+ margin:0;
+ background-color: #fff; 
+ font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;	
+}
+
+/*seccion de navegador*/
+#main {
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background: #2c3e50;
+}
+.fixedTop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1500;
+}
+.navbar {
+    position: relative;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px 2px;
+}
+
+#main .navbar-brand {
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+    font-size: 10px;
+    line-height: inherit;
+ 
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+#main .navbar-nav li.items a.nav-link {
+    color: #fff;
+}
+button{
+overflow: visible;
+}
+#main .navbar-toggler:focus, #main .navbar-toggler:hover {
+    color: #fff;
+    border-color: #18bc9c;
+    background-color: #18bc9c;
+}
+.navbar.container, .navbar.container-fluid {
+    display: inline-block;
+    align-items: center;
+    
+}
+
+
+/*sección de imagenes de portafolio*/
+section{
+	padding: 100px 0;
+}
+.container{
+	max-width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+   padding: 0 10px;
+   text-align: center;
+
+}
+#portfolio * {
+    z-index: 2;
+}
+
+hr{
+overflow: visible;
+height: 0;	
+
+}
+hr.star1:after, hr.star2:after{
+	content: '\f005';
+	font-family: FontAwesome;
+	position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.row{
+ display: inline-block;
+ margin: 0 20px;	
+}
+#portfolio .portfolio-item{
+	margin: 0  0  20px;
+}
+.cols4{
+	max-width: 100%;
+	position: relative;
+	padding: 0 5px;
+    width: 30%;
+}
+#portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+}
+
+.imgAbout{
+	max-width: 100%;
+	height: auto;
+}
+figure{
+  display:inline-block;	
+  height: auto;
+
+}
+
+/*seccion de about descarga*/
+.aboutFree{
+    color: #fff;
+    background: #18bc9c;
+}
+.col8{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*boton download*/
+a{
+   text-decoration: none;
+ }   
+.btn-outline {
+    font-size: 20px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    border: solid 2px #fff;
+    background: 0 0;
+}
+.btn-outline:hover {
+    color: #18bc9c;
+    border: solid 2px #fff;
+    background: #fff;
+}
+
+.btn-lg {
+    padding: 5px 2px;
+    line-height: 1.5;
+    border-radius: 6px;}
+ 
+
+ .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;}
